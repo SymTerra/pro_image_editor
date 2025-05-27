@@ -14,7 +14,6 @@ import '/shared/widgets/extended/mouse_region/extended_rebuild_mouse_region.dart
 import '/shared/widgets/layer/layer_widget.dart';
 import '../main_editor.dart';
 
-
 /// A widget that manages and displays layers in the main editor, handling
 /// interactions, configurations, and callbacks for user actions.
 class MainEditorLayers extends StatefulWidget {
@@ -244,8 +243,8 @@ class _MainEditorLayersState extends State<MainEditorLayers> {
 
   /// Builds a single layer widget
   Widget _buildLayerWidget(MapEntry<int, Layer> entry) {
-    var bodySize = 
-      getValidSizeOrDefault(widget.sizesManager.bodySize, editorBodySize);
+    var bodySize =
+        getValidSizeOrDefault(widget.sizesManager.bodySize, editorBodySize);
 
     int index = entry.key;
     Layer layer = entry.value;

@@ -5,7 +5,6 @@ import '/core/mixins/editor_configs_mixin.dart';
 import '/designs/grounded/grounded_design.dart';
 import '/pro_image_editor.dart';
 
-
 /// A widget that represents a filter bar in the image editor.
 ///
 /// The [GroundedFilterBar] is designed to be used as part of the ProImageEditor
