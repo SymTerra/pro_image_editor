@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:pro_image_editor/core/utils/size_utils.dart';
 
 import '/core/models/editor_callbacks/pro_image_editor_callbacks.dart';
 import '/core/models/editor_configs/pro_image_editor_configs.dart';
 import '/core/models/layers/layer.dart';
+import '/core/utils/size_utils.dart';
 import '/features/main_editor/controllers/main_editor_controllers.dart';
 import '/features/main_editor/services/layer_interaction_manager.dart';
 import '/features/main_editor/services/sizes_manager.dart';
